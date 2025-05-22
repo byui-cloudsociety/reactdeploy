@@ -10,10 +10,10 @@
    - **Key Pair**: Select existing one
      - Click the dropdown and select "vockey"
    - **Network Settings**: 
-     - Allow SSH traffic from your IP
-     - Allow HTTP traffic from the internet
-     - Allow HTTPS traffic from the internet
-   - **Storage**: 8 GB gp3 is sufficient
+     - Allow SSH traffic 
+     - Allow HTTP traffic
+     - Allow HTTPS traffic
+   - **Storage**: 8 GB gp3 is good
 5. Click "Launch Instance"
 
 ## Step 2: Connect to Your EC2 Instance
