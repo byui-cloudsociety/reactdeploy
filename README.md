@@ -74,6 +74,12 @@ npm install
 npm run build
 ```
 
+### Move Build Files
+```bash
+sudo cp -r /home/ubuntu/reactdeploy/build /var/www/react-app
+sudo chown -R www-data:www-data /var/www/react-app
+```
+
 ## Step 5: Configure Nginx
 
 ### Create Nginx configuration
@@ -87,7 +93,7 @@ server {
     listen 80;
     server_name your-instance-public-ip;
     
-    root /home/ubuntu/reactdeploy/build;
+    root /var/www/react-app;
     index index.html;
     
     location / {
